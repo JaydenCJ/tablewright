@@ -1,0 +1,5 @@
+item,price,notes
+widget,9.50,plain field
+gadget,"1,200","comma, inside a quoted field"
+sprocket,3.25,"two
+lines via a real newline"

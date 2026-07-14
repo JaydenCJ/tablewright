@@ -1,0 +1,55 @@
+{
+  "name": "tablewright",
+  "version": "0.1.0",
+  "description": "Markdown table toolkit: format, align, sort, edit cells by address, and round-trip CSV/TSV. Zero runtime dependencies, fully offline.",
+  "author": "JaydenCJ",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "tablewright": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"tests/*.test.mjs\"",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "keywords": [
+    "markdown",
+    "table",
+    "formatter",
+    "csv",
+    "tsv",
+    "sort",
+    "pipe-table",
+    "cli"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenCJ/tablewright.git"
+  },
+  "homepage": "https://github.com/JaydenCJ/tablewright#readme",
+  "bugs": {
+    "url": "https://github.com/JaydenCJ/tablewright/issues"
+  }
+}
