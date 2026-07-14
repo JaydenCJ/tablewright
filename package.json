@@ -2,7 +2,7 @@
   "name": "tablewright",
   "version": "0.1.0",
   "description": "Markdown table toolkit: format, align, sort, edit cells by address, and round-trip CSV/TSV. Zero runtime dependencies, fully offline.",
-  "author": "JaydenCJ",
+  "author": "JaydenCJ <aisingioro.kiyon@gmail.com>",
   "license": "MIT",
   "type": "module",
   "bin": {
